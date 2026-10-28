@@ -9,7 +9,7 @@ I founded [CrowdCount](https://github.com/Crowd-Count) and led its engineering. 
 What I built:
 
 - **Counter firmware** for a Raspberry Pi Zero 2W with a global shutter camera: video streaming, Bluetooth setup from a QR code, and a fleet managed over Tailscale ([crowdcount-counter](https://github.com/Crowd-Count/crowdcount-counter))
-- **The cloud API** in Flask and SQLite, with signed requests, push alerts, Square POS sync and zero-downtime deploys ([crowdcount-server](https://github.com/Crowd-Count/crowdcount-server))
+- **The cloud API** in Flask and SQLite, with signed requests, push alerts, Square POS sync and zero-downtime deploys (private repo)
 - **The iOS app** in SwiftUI, live on the App Store as [CrowdCount App](https://apps.apple.com/us/app/crowdcount-app/id6523433094) ([crowdcount-ios](https://github.com/Crowd-Count/crowdcount-ios))
 - **The websites** in Next.js: [crowdcount.tech](https://crowdcount.tech) with its live busyness map, the owner-facing Counter Manager, and an internal fleet dashboard
 - **The GPU counting server**, built with Josh D'Annunzio, running YOLO models we trained ourselves ([crowdcount-counter-server](https://github.com/Crowd-Count/crowdcount-counter-server))
